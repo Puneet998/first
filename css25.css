@@ -1,0 +1,272 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+}
+body{
+    font-family: Arial;
+    display:flex;
+    flex-direction: column;
+    background: url(background.jpg);
+}
+header{
+    /* background:black; */
+    display: flex;
+    align-items: center;
+     
+    height:60px;
+   
+}
+main{
+    align-items: center;
+}
+header ul{
+    list-style: none;
+}
+ul{
+    display:flex;
+    
+    justify-content: space-evenly;
+    padding-left: 10px;
+    padding-right:10px;
+    align-items: flex-end;
+    
+}
+li{
+    margin-right:50px;
+    margin-left: 30px;
+    color: white;
+
+
+}
+.first{
+     margin-left: 50px;
+     color: rgb(244, 160, 4); 
+}
+.heading h1{
+    /* margin-left: 50px; */
+    color: rgb(244, 160, 4);
+}
+
+nav{
+    margin:0 auto;
+    /* background-color:black; */
+}
+
+nav ul li{ 
+      justify-content: space-evenly;
+ }
+ .search{
+    margin-right: 50px;
+    padding:0px;
+ }
+ button{
+    background-color: #f08804;
+    color:white;
+    height: 35px;
+    width:100px;
+     
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.srch{
+    height:35px;
+    width:250px;
+    color: white;
+    background-color:rgba(0,0,0,0.5);
+
+}
+a:hover{
+    color:orange;
+  
+    /* height: 100px; */
+}
+
+/* p{
+    margin-left: 50px;
+} */
+.container{
+    /* border: 3px solid black; */
+    padding:5px;
+    display: flex;
+    justify-content: start;
+    margin-top: 120px;
+}
+.one{
+    /* margin-right: 50px; */
+
+    margin-bottom: 5px;
+    margin-left: 50px;
+    width: 550px;
+    align-items:center;
+    padding-top: 5px;
+    
+
+
+}
+
+.two{
+    margin-right:50px;
+    margin-left: 600px;
+   flex-direction: column;
+   align-items: center;
+    
+    width:300px;
+   background-color:rgba(0,0,0,0.5);
+   border-top-left-radius: 30px;
+   border-bottom-right-radius: 30px;
+}
+
+.heading1{
+    font-size: 34px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.heading2{
+    font-size: 48px;
+    font-family: 'Times New Roman', Times, serif;
+    color:orange;
+}
+.heading3{
+    font-size: 34px;
+
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+}
+p{
+    line-height: 2;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif ;
+    
+}
+pp{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.bt1{
+    margin-top: 15px;
+    padding-top: 7px;
+    width:250px;
+    font-size: 30px;
+    color:orange;
+    background-color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+    height:50px;
+    border-radius: 15px;
+    border:2px solid red;
+
+
+}
+.in1{
+    width:250px;
+    height:25px;
+    color:white;
+    
+}
+input::placeholder{
+    color:white;
+}
+
+.in2{
+    width:250px;
+    height:25px;
+    color:white;
+
+    
+}
+.bt3{
+    height:50px;
+    margin-top: 20px;
+    width:250px;
+    font-size: 25px;
+    color:black;
+    background-color:orange;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+    border-radius: 15px;;
+}
+.head3{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.head4{ font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:rgb(152, 77, 3);
+}
+.head5{
+     color:white;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 14px;;
+}
+.head6{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.icons{
+    color:white;
+    width:280px;
+    height:40px;
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.icons i{
+    color:#fff;
+    font-size: 30px;
+    padding-top: 5px;
+}
+    
+.icons :hover{ 
+    color:white; 
+    color:rgb(152, 77, 3);
+
+    font-size: 40px;
+} 
+
+input[type=text]{
+    border:none;
+    background-color:rgba(0,0,0, 0);
+    color:white;
+    border-bottom: 3px solid red;
+}
+input[type=password]{
+    border:none;
+    background-color:rgba(0,0,0, 0);
+    
+    border-bottom: 3px solid red;
+}
+p::selection{
+    background-color: aqua;
+    color:red;
+}
+h3::selection{
+    background-color: aqua;
+    color:red;
+}
+h1::selection{
+    background-color: aqua;
+    color:red;
+}
+a:hover{
+    font-size: 20px;
+    color:rgb(152, 77, 3);
+}
+button:active{
+    background-color: blue;
+    color:aqua;
+}
+a::selection{
+
+        background-color: aqua;
+        color:red;
+    
+}
